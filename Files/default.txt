@@ -1,1 +1,1 @@
-Click one of the buttons above to learn Sorting Algorithms implemented by me in Java. Yu have to enable JavaScript in order to be able to see the code.
+Click one of the buttons above to learn Sorting Algorithms implemented by me in Java. You have to enable JavaScript in order to be able to see the code.
