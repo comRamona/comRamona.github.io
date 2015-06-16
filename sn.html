@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta name="author" content="Rami" >
+<meta name="keywords" content="Ramona Comanescu web developer HTML">
+<link rel="stylesheet" href="css/main.css" type="text/css">
+<link rel="stylesheet" href="css/Algorithms.css" type="text/css">
+<title>Algorithms</title>
+</head>
+<body>
+    
+        <div id="container">
+        <div id="header">
+        <h1>
+            Welcome to Ramona's Page
+            </h1>
+            <cite>About coding &amp life &amp me.</cite>
+        </div>
+        <div id="content">
+        
+            <div id="nav">
+                <ul>
+                    <div> <li><a href="index.html">Home</a></li> </div>
+                    <a href="snake.html"> <li>Snake Game</li></a>
+                    <a href="cv.html"> <li>My CV</li> </a>
+                    <a href="algorithms.html "><li  class="selected">Algorithms</li></a>
+                    <a href="links.html"><li>Useful Links</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
+            <div id="main">
+                   
+<h1 style="text-align:center">SNAKE</h1>
+    <h3 style="color:red; text-align:center">Use a browser that supports Java Applets or download and execute that jar file yourself:</h2>>
+                <input type="button" value="snake" name="Try Java App" onclick="showSnake()"></input>  
+            <input type="button" name="applet" value="Download executable" onclick="window.location='Files/Snake3.jar'"/>
+   <div id="app" style="display:none">
+            <APPLET archive="MySnake.jar" code="MySnake" width="400" height="500">
+</APPLET> 
+            </div>
+
+    
+
+    
+              
+                </div> </div>
+            
+       
+        
+        <div id="footer">
+        Copyright &copy; 2015 Ramona Comanescu.
+        </div>
+    </div>
+
+  <script>
+    
+    function showSnake(){
+        
+     document.getElementById('app').style.display="block"; 
+        
+    }
+    </script>
+             
+   
+    </body>    
+
+    
+</html>

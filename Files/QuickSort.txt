@@ -1,0 +1,26 @@
+public class QuickSort {
+	public static void qsort(int[] arr,int left, int right){
+		int i=left,j=right;
+		int pivot=arr[(left+right)/2];
+		int aux;
+		while(i<=j){
+			while(arr[i]<pivot) i++;
+			while(arr[j]>pivot) j--;
+			if(i<=j) {
+				 
+				aux=arr[i];
+				arr[i]=arr[j];
+				arr[j]=aux;
+				i++;
+				j--;
+			}
+				
+		}
+		if(left<j) qsort(arr,left,j);
+		if(right>i) qsort(arr,i,right);
+		
+		
+	}
+	
+
+}

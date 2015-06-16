@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta name="author" content="Rami" >
+<meta name="keywords" content="Ramona Comanescu web developer HTML">
+<link rel="stylesheet" href="css/main.css" type="text/css">
+<link rel="stylesheet" href="css/Algorithms.css" type="text/css">
+<title>Algorithms</title>
+</head>
+<body>
+    
+        <div id="container">
+        <div id="header">
+        <h1>
+            Welcome to Ramona's Page
+            </h1>
+            <cite>About coding &amp life &amp me.</cite>
+        </div>
+        <div id="content">
+        
+            <div id="nav">
+                <ul>
+                     <li><a href="index.html">Home</a></li> 
+                    <a href="snake.html"> <li>Snake Game</li></a>
+                    <a href="cv.html"> <li>My CV</li> </a>
+                    <a href="algorithms.html "><li  class="selected">Algorithms</li></a>
+                    <a href="links.html"><li>Useful Links</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
+            <div id="main">
+                <h2>Algorithms</h2>
+                <table>
+                <tr>
+                    <td> <input type="button" name="Quicksort" value="QuickSort" onclick="showQuick('toggle')" ></input>
+                    <td> <input type="button" name="Mergesort" value="MergeSort" onclick="showMerge('toggle')"></input></td>
+             <td> <input type="button" name="SelectionSort" value="SelectionSort" onclick="showSelection('toggle')"></input></td>
+                    
+                    </tr>
+    <tr>
+     <td> <input type="button" name="BubbleSort" value="BubbleSort" onclick="showBubble('toggle')"></input></td>
+ <td> <input type="button" name="InsertionSort" value="InsertionSort" onclick="showInsertion('toggle')"></input></td>
+    </tr></table>
+   
+     
+      <iframe id="Sorting" src="Files/default.txt" width="580" height="100" style="margin-top:20px; margin-bottom:20px;">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+
+    
+              
+                </div> </div>
+            
+       
+        
+        <div id="footer">
+        Copyright &copy; 2015 Ramona Comanescu.
+        </div>
+    </div>
+
+    <script>
+
+
+function showQuick(){
+document.getElementById('Sorting').src = "Files/QuickSort.txt";
+    document.getElementById('Sorting').width = "580";
+     document.getElementById('Sorting').height = "400";
+}
+function showMerge(){
+document.getElementById('Sorting').src = "Files/MergeSort.txt";
+     document.getElementById('Sorting').width = "580";
+     document.getElementById('Sorting').height = "600";
+}
+function showSelection(){
+document.getElementById('Sorting').src = "Files/SelectionSort.txt";
+     document.getElementById('Sorting').width = "580";
+     document.getElementById('Sorting').height = "500";
+}
+function showBubble(){
+document.getElementById('Sorting').src = "Files/BubbleSort.txt";
+     document.getElementById('Sorting').width = "580";
+     document.getElementById('Sorting').height = "300";
+}   
+function showInsertion(){
+document.getElementById('Sorting').src = "Files/InsertionSort.txt";
+     document.getElementById('Sorting').width = "580";
+     document.getElementById('Sorting').height = "300";
+}
+
+</script>    
+             
+   
+    </body>    
+
+    
+</html>
